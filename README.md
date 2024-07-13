@@ -88,7 +88,7 @@ Manzaneque Limited is a large real estate company that specializes in residentia
    - Use MySQL Workbench to create the database schema from the provided SQL file.
      
 3. **Open the Solution in Visual Studio**:
-   - Open the `HelpDesk.sln` file in Visual Studio.
+   - Open the `WindowsFormsApplication2.sln` file in Visual Studio.
      
 4. **Configure Connection Strings**:
    - Update the connection strings in the application to point to your MySQL database.
