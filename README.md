@@ -18,38 +18,26 @@ Manzaneque Limited is a large real estate company that specializes in residentia
 - Refer unresolved problems to specialists.
 - Log resolution details and time taken.
 
-### Inputs
+### Inputs & Outputs
 
 1. **Logging Window**
    - Inputs: Caller name, serial number of the computer, operating system, software, time of call.
-
-2. **Checking Window**
-   - Inputs: Caller name, device number.
-
-3. **Operator Window**
-   - Inputs: Operator ID, problem number, problem type, problem description, solution, date and time of resolution, equipment ID, specialist ID.
-
-4. **Specialist Window**
-   - Inputs: Call ID, caller ID, operator ID, problem number, answer, time.
-
-5. **Call Window**
-   - Inputs: Problem ID, solution, time.
-
-### Outputs
-
-1. **Logging Window**
    - Outputs: Data entry confirmation, database check for data entry, access to identification form.
 
 2. **Checking Window**
+   - Inputs: Caller name, device number.
    - Outputs: Caller details, equipment information.
 
 3. **Operator Window**
+   - Inputs: Operator ID, problem number, problem type, problem description, solution, date and time of resolution, equipment ID, specialist ID.
    - Outputs: Data entry confirmation, call information entry access, specialist window access, previous problem information, data deletion confirmation, system exit.
 
 4. **Specialist Window**
+   - Inputs: Call ID, caller ID, operator ID, problem number, answer, time.
    - Outputs: Data entry confirmation, caller information, query information, return to operator window.
 
 5. **Call Window**
+   - Inputs: Problem ID, solution, time.
    - Outputs: Data entry confirmation, specialist window access, return to operator window.
 
 ## Security Measures
@@ -80,20 +68,15 @@ Manzaneque Limited is a large real estate company that specializes in residentia
 
 ### User Interfaces
 
-1. **Logging Window**
-   - UI for logging caller information and initiating the helpdesk process.
+1. **Logging Window** - UI for logging caller information and initiating the helpdesk process.
 
-2. **Checking Window**
-   - UI for verifying caller and equipment details.
+2. **Checking Window** - UI for verifying caller and equipment details.
 
-3. **Operator Window**
-   - UI for helpdesk operators to log problems, assign types, and refer to specialists.
+3. **Operator Window** - UI for helpdesk operators to log problems, assign types, and refer to specialists.
 
-4. **Specialist Window**
-   - UI for specialists to view and resolve assigned problems.
+4. **Specialist Window** - UI for specialists to view and resolve assigned problems.
 
-5. **Call Window**
-   - UI for finalizing problem resolutions and logging the details.
+5. **Call Window** - UI for finalizing problem resolutions and logging the details.
 
 ## How to Run
 
@@ -105,7 +88,7 @@ Manzaneque Limited is a large real estate company that specializes in residentia
    - Use MySQL Workbench to create the database schema from the provided SQL file.
      
 3. **Open the Solution in Visual Studio**:
-   - Open the .sln file in Visual Studio.
+   - Open the `HelpDesk.sln` file in Visual Studio.
      
 4. **Configure Connection Strings**:
    - Update the connection strings in the application to point to your MySQL database.
