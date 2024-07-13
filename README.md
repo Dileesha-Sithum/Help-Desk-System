@@ -93,7 +93,7 @@ Manzaneque Limited is a large real estate company that specializes in residentia
 4. **Configure Connection Strings**:
    - Update the connection strings in the application to point to your MySQL database.
 
-5.**Run the Application**:
+5. **Run the Application**:
    - Build and run the application in Visual Studio.
 
    
