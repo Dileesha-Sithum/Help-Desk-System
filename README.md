@@ -95,5 +95,24 @@ Manzaneque Limited is a large real estate company that specializes in residentia
 5. **Call Window**
    - UI for finalizing problem resolutions and logging the details.
 
-License
+## How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/username/manzaneque-helpdesk.git
+
+2. **Set Up the Database**:
+   - Use MySQL Workbench to create the database schema from the provided SQL file.
+     
+3. **Open the Solution in Visual Studio**:
+   - Open the .sln file in Visual Studio.
+     
+4. **Configure Connection Strings**:
+   - Update the connection strings in the application to point to your MySQL database.
+
+5.**Run the Application**:
+   - Build and run the application in Visual Studio.
+
+   
+## License
 This project is licensed under the MIT License.
